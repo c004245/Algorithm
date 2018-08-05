@@ -18,6 +18,9 @@ public class Median {
         check(a, b, c);
 
         Log.d(TAG, "median -->" + median);
+
+        JudgeSign judgeSign = new JudgeSign();
+
     }
 
     public int check(int a, int b, int c) {

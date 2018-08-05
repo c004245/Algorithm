@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.hyunwook.basicalgorithm.Chapter1.Median;
+
 import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
@@ -60,6 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
         min4(dd, ff, ee, gg);
         Log.d(TAG, "4개중 가장 작은 값" + min4);
+
+
+        Median median = new Median();
     }
 
     public int max3(int d, int e, int f) {
